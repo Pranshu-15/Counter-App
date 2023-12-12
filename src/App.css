@@ -1,0 +1,27 @@
+.counter-container{
+  background-color: #f0f0f0;
+  border: 1px solid black;
+  border-radius: 15px;
+    box-shadow: 20px -20px 100px 0px rgba(34, 35,218, 0.6),
+    -20px 20px 100px 0px rgba(220,55,120,0.6);
+    margin-top: 55px;
+}
+.header{
+  text-align: center;
+}
+.counter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  font-size: xx-large;
+  margin: 22px;
+  padding: 24px;
+  background-color: bisque;
+  border: none;
+}
+button:hover{
+  border: 1px solid black;
+  cursor: pointer;
+}
